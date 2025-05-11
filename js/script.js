@@ -7,10 +7,10 @@ let isPlaying = false;
 toggleButton.addEventListener("click", () => {
   if (isPlaying) {
     music.pause();
-    toggleButton.textContent = "🔈 Música";
+    toggleButton.textContent = "🔈 House of Gold - Twenty One Pilots";
   } else {
     music.play();
-    toggleButton.textContent = "🔊 Música";
+    toggleButton.textContent = "🔊 Reproduciendo House of Gold - Twenty One Pilots";
   }
   isPlaying = !isPlaying;
 });
